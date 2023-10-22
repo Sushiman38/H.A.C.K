@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     private float enemyHealth = 2f;
     
     public GameObject gunHitEffect;
+    //public bool isAggro;
 
     void Start()
     {
