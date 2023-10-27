@@ -1,18 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
+
 using UnityEngine;
 
 public class Shotgunbullets : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    //Assignables
+    public Rigidbody rb;
+    public GameObject explosion;
+    public LayerMask WhatIsEnemies;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    //Stats
+    [Range(0f,1f)]
+    public float bounciness;
+    public bool useGravity;
+
+
+
 }
