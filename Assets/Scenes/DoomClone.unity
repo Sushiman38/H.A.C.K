@@ -3141,11 +3141,18 @@ MonoBehaviour:
   magazineSize: 10
   bulletsPerTap: 5
   allowButtonHold: 0
+  playerRb: {fileID: 1744197437}
+  recoilForce: 25
   fpsCam: {fileID: 1260453780}
   attackPoint: {fileID: 41901441}
   muzzleFlash: {fileID: 0}
   ammunitionDisplay: {fileID: 0}
   allowInvoke: 1
+--- !u!54 &1744197437 stripped
+Rigidbody:
+  m_CorrespondingSourceObject: {fileID: 4459864850019384741, guid: 6bacecc4f3df9584198879c73a6b6c36, type: 3}
+  m_PrefabInstance: {fileID: 1512645798}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1753511771
 GameObject:
   m_ObjectHideFlags: 0
