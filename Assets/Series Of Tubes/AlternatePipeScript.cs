@@ -38,7 +38,7 @@ public class AlternatePipeScript : MonoBehaviour
     {
         if(PossibleRots > 1)
         {
-            if(transform.eulerAngles.z == correctRotation[0]|| transform.eulerAngles.z == correctRotation[1])
+            if(Mathf.RoundToInt(transform.eulerAngles.z) == correctRotation[0]|| Mathf.RoundToInt(transform.eulerAngles.z) == correctRotation[1])
             {
                 isPlaced = true;
                 if(goodmoveCounted == false)
@@ -64,7 +64,7 @@ public class AlternatePipeScript : MonoBehaviour
         }
         else
         {
-            if(transform.eulerAngles.z == correctRotation[0])
+            if(Mathf.RoundToInt(transform.eulerAngles.z) == correctRotation[0])
             {
                 isPlaced = true;
                 if(goodmoveCounted == false)
