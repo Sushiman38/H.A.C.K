@@ -19560,9 +19560,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1117312194708451928, guid: bc321745140bef84c872187efe5546ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.861
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117312194708451928, guid: bc321745140bef84c872187efe5546ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.345
+      objectReference: {fileID: 0}
+    - target: {fileID: 1117312194708451928, guid: bc321745140bef84c872187efe5546ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 280.083
+      objectReference: {fileID: 0}
     - target: {fileID: 1503435394171723744, guid: bc321745140bef84c872187efe5546ef, type: 3}
       propertyPath: m_Name
       value: Staircase_ceiling
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564355470332466176, guid: bc321745140bef84c872187efe5546ef, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564355470332466176, guid: bc321745140bef84c872187efe5546ef, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 15.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1564355470332466176, guid: bc321745140bef84c872187efe5546ef, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 280.08
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
